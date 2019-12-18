@@ -1,0 +1,92 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	padding: 0 2% 2% 2%;
+	background-color: #fff;
+}
+
+.wrapper {
+	position: relative;
+	background-color: #22B573;
+	height: 100%;
+	width: 100%;
+	padding: 2%;
+}
+
+.wrap-txt {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-size: 14px;
+	color: #FCEE21;
+}
+.navbar {
+	position: absolute;
+	top: 38px;
+	left: 30px;
+
+}
+.navbar li {
+	display: inline-block;
+}
+.navbar li a {
+	font-size: 48px;
+	color: #fff;
+	padding-left: 30px;
+}
+.logo {
+	position: absolute;
+	top: 30px; 
+	right: 28px;
+	height: 95%;
+}
+.box {
+	position: relative;
+	bottom: 65%; 
+	left:0;
+	height: 65%;
+	width: 50%;
+	background-color: #fff;
+
+}
+.box:hover .small-box {
+	background-color: #FFFF00;
+}
+.box:hover .text {
+	transform: rotate(0deg);
+	color: #C1272D;
+
+}
+.box:hover .text2 {
+	color: #ED1C24;
+}
+
+.text2 {
+	position: absolute;
+	bottom: 10px; 
+	right: 10px;
+	font-size: 14px;
+	color: #39B54A;
+}
+.small-box {
+	position: absolute;
+	bottom: 80px; 
+	left: 100px;
+	height: 300px;
+	width: 300px;
+	background-color: #006837;
+}
+.text{
+	position: absolute;
+	right: 270px;
+	top: 190px;
+	font-size: 46px;
+	color: #FFFF00;
+	text-align: center;
+	transform: rotate(45deg);
+	z-index: 50;
+	
+}
